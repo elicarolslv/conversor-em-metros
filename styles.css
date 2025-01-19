@@ -1,0 +1,68 @@
+h1 {
+    display: flex; /* Ativa o flexbox para alinhar o conteúdo */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: rgb(185, 204, 255); /* Fundo azul claro */
+    color: rgb(28, 28, 100); /* Cor do texto */
+    padding: 0 30px; /* Adiciona espaço acima e abaixo */
+    margin: 0; /* Remove as margens padrão */
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte */
+    font-size: 2rem; /* Aumenta o tamanho do texto */
+    width: 100%; /* Preenche toda a largura */
+    top: 0; /* Posiciona o cabeçalho no topo */
+    height: 100px; /* Define uma altura fixa */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+/* Centraliza a caixa na tela */
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 204, 204); /* Fundo cinza */
+    padding: 50px;
+    border-radius: 5px; /* Bordas arredondadas */
+    width: 500px; /* Largura fixa */
+    margin: 50px auto; /* Centraliza na tela */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
+}
+
+/* Estiliza o input */
+#metros {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid rgb(4, 0, 248); /* Bordas cinzas */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco */
+    font-size: 1rem;
+}
+label {
+    font-size: 1.5rem; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito (opcional) */
+    color: rgb(8, 20, 59); /* Muda a cor do texto */
+    margin-bottom: 10px; /* Adiciona um espaço abaixo do label */
+    display: block; /* Faz o label ocupar uma linha inteira */
+}
+
+/* Estiliza o botão */
+#converter-btn {
+    padding: 15px 30px;
+    background-color: rgb(0, 0, 255); /* Fundo azul */
+    color: rgb(255, 255, 255); /* Texto branco */
+    border: none;
+    border-radius: 9px; /* Bordas arredondadas */
+    font-size: 1.3rem;
+}
+
+/* Efeito de hover no botão */
+#converter-btn:hover {
+    background-color: rgb(46, 119, 255);
+}
+
+/* Estiliza o texto do resultado */
+#resultado {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: rgb(90, 7, 7);
+}
