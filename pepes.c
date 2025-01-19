@@ -3,17 +3,18 @@
 
 int main (){
 setlocale (LC_ALL, "Portuguese");
-//1 metro equivale a 3,3 pés
+//1 metro equivale a tanana 3,3 pÃ©s
 double metro, pes;
 
     printf ("Por favor, insira o valor em metros:");
     scanf ("%lf", &metro);
 
-// Converte metros para pés
-pes = metro * 3.3;
+// Converte metros para pÃ©s
+pes = metro * 3.28084;
+
 
     // Exibe o resultado
-    printf("%.2lf metros equivalem a %.2lf pés.\n", metro, pes);
+    printf("%.2lf metros equivalem a %.2lf pÃ©s.\n", metro, pes);
 
     return 0;
 }
