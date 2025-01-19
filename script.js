@@ -9,7 +9,8 @@ document.getElementById("converter-btn").addEventListener("click", function () {
     }
 
     // Converte metros para pés
-    const pes = metros * 3.3;
+     const pes = metros * 3.28084;
+
 
     // Exibe o resultado
     document.getElementById("resultado").textContent = `${metros.toFixed(2)} metros equivalem a ${pes.toFixed(2)} pés.`;
